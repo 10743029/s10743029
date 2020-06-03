@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+<div id="nav"></div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+	$("#nav").load("nav.html");
+</script>
+	<p>this is page8.</p>
+	<form method="get" action="">
+		<label for="phone">Your Name:</label><br><br>
+		<input type="text" name="id" /><br><br>
+		<label for="phone">Your password:(8 digits)</label><br><br>
+		<input type="password" pattern="[a-zA-z0-9]{8,}"<br><br>
+        <input for="phone">Your phonr number:</label><br><br>
+        <input type="tel" id="phone" name="phone" placeholder="0911-123456" pattern="[0-9]{4}-[0-9]{6}"><br><br>
+		<input type="submit" value="送出表單"/>
+	</form>
+
+</body>
+</html>
